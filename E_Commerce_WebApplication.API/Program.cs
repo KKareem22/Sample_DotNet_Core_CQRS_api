@@ -1,4 +1,7 @@
 
+using E_Commerce_WebApplication.Application;
+using E_Commerce_WebApplication.Infrastructure;
+
 namespace E_Commerce_WebApplication.API
 {
     public class Program
@@ -10,6 +13,9 @@ namespace E_Commerce_WebApplication.API
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddApplicationServices();
+            builder.Services.AddInfrastructureServices(builder.Configuration);
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

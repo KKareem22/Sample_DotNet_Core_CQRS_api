@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="E_Commerce_WebApplication.API/E_Commerce_WebApplication.API.csproj" />
+  <Project Path="E_Commerce_WebApplication.Application/E_Commerce_WebApplication.Application.csproj" />
+  <Project Path="E_Commerce_WebApplication.Domain/E_Commerce_WebApplication.Domain.csproj" />
+  <Project Path="E_Commerce_WebApplication.Infrastructure/E_Commerce_WebApplication.Infrastructure.csproj" />
 </Solution>
